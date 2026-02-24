@@ -67,4 +67,3 @@
   - **没有 upload command** 时只能发送文本 + 明确提示；
   - 有 upload command 后才能真正把本地截图/图片发到 QQ。
 - “按需附图”是启发式判断：默认避免在“打开浏览器/点击/截图”等动作任务里误附旧图；可以通过 `agents.defaults.recentImageLimit=0` 关闭该能力。
-
